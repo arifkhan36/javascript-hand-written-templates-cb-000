@@ -24,8 +24,9 @@ JavaScript Hand-Written Templates
 var main = document.getElementsByTagName('main')[0]
 main.innerHTML = '<div>Hi<p>I'm on a new line!</p></div><div>This is hard to keep track of</div><div>Students <div>should <div>feel <div>the <div> pain.</div></div></div></div></div>'
 ```
+- Encapsulate this functionality in a few functions (e.g., `createDiv()`, `insertTextAsHTML()`, etc.)
 
-- Finally, encapsulate this functionality in a few functions (e.g., `createDiv()`, `insertTextAsHTML()`, etc.)
+- Have students insert comments on a post (include the post in index.html) this way (no need for a server, just do everything in the client)
 
 ## Resources
 
